@@ -10,12 +10,6 @@ I come from the demand side of these systems: 8+ years in growth and product mar
 |---|---|---|---|---|
 | 01 | [AI lead qualification & routing](projects/01-lead-qualify-route/) | Leads from many sources into one CRM, scored by AI, routed by tier, auto follow-up, error alerts. Built from a real Upwork brief. | n8n, Gemini, HubSpot, Sheets, Gmail, Discord | Built, spec project |
 
-## Learning log
-
-| # | Module | Takeaway |
-|---|---|---|
-| 01 | [Weekly sales report](learning/01-weekly-sales-report/) (n8n QS101) | Item model, `$('Node')` references, upsert over insert |
-
 ## How I work
 
 - **One lead schema** early, so new sources are one node, not a rebuild.
