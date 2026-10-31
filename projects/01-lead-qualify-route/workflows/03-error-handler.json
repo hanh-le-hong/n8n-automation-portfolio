@@ -1,0 +1,30 @@
+{
+  "name": "00 - Error handler (global)",
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "c3d5e4a2-0003-4000-8000-000000000001",
+      "name": "On any workflow error",
+      "type": "n8n-nodes-base.errorTrigger",
+      "typeVersion": 1,
+      "position": [0, 300]
+    },
+    {
+      "parameters": {
+        "authentication": "webhook",
+        "content": "=🚨 WORKFLOW FAILED\nWorkflow: {{ $json.workflow.name }}\nNode: {{ $json.execution.lastNodeExecuted }}\nError: {{ $json.execution.error.message }}\nWhen: {{ $now.toFormat('yyyy-LL-dd HH:mm') }} (UTC{{ $now.toFormat('Z') }})\nExecution: {{ $json.execution.url }}",
+        "options": {}
+      },
+      "id": "c3d5e4a2-0003-4000-8000-000000000002",
+      "name": "Alert ops (Discord)",
+      "type": "n8n-nodes-base.discord",
+      "typeVersion": 2,
+      "position": [260, 300]
+    }
+  ],
+  "connections": {
+    "On any workflow error": { "main": [[{ "node": "Alert ops (Discord)", "type": "main", "index": 0 }]] }
+  },
+  "settings": { "executionOrder": "v1" },
+  "pinData": {}
+}
