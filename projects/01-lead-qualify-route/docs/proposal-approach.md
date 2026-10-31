@@ -16,7 +16,7 @@ I built a working version of this exact pipeline as a spec project, using your b
 
 Plus a separate error workflow that posts the failing node and a link to the execution whenever anything breaks.
 
-Repo with workflow files, build guide and design decisions: [GitHub link]
+Repo with workflow files, build guide and design decisions: https://github.com/hanh-le-hong/n8n-automation-portfolio
 2-minute walkthrough: [Loom link]
 
 Stack: n8n, Google Gemini, HubSpot, Gmail, Discord. The CRM step is isolated in a sub-workflow, so swapping HubSpot for Pipedrive, Zoho, Close or a Google Sheet is one node change.

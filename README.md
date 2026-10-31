@@ -21,4 +21,4 @@ I come from the demand side of these systems: 8+ years in growth and product mar
 
 ## Contact
 
-April Le · [Upwork] · [LinkedIn] · lehhanh74@gmail.com
+April Le · [Upwork](https://www.upwork.com/freelancers/lehonghanh) · [GitHub](https://github.com/hanh-le-hong/n8n-automation-portfolio) · lehhanh74@gmail.com

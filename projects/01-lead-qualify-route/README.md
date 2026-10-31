@@ -101,4 +101,4 @@ n8n 2.45 (Cloud) · Google Gemini 2.5 Flash · HubSpot Free · Google Sheets · 
 
 ## Author
 
-April Le, B2B SaaS Product Marketing & GTM, building marketing automation with n8n.  
+April Le, B2B SaaS Product Marketing & GTM, building marketing automation with n8n. [Upwork profile](https://www.upwork.com/freelancers/lehonghanh)
